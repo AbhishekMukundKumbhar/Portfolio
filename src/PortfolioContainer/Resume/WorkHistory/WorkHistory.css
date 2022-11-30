@@ -1,0 +1,117 @@
+.experience-content {
+    margin: 5px 5px 5px 15px;
+    height: auto;
+    width: 95%;
+    padding-left: 15px;
+}
+
+.cmp-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #01a2e3
+}
+
+.about-experience {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.about-experience tr td {
+    padding-right: 30px;
+}
+
+.key-result-area {
+    margin-top: 15px;
+    padding-left: 5%;
+}
+
+.key-result-details {
+    margin: 2%;
+    position: relative;
+}
+
+.key-result-details::before {
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 2px;
+    background-color: #01a2e3;
+    top: 17px;
+    transform: translateX(-30px);
+}
+
+.key-result-details {
+    transform: translateX(30px);
+}
+
+.key-result-details::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #01a2e3;
+    border-radius: 50%;
+    top: 10px;
+    transform: translate(50%, -50%);
+    left: -49px;
+}
+
+.key-result-details ul li {
+    text-align: justify;
+}
+
+.domain-title {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    color: black;
+    text-shadow: -1px 1px 0 white,
+        1px 1px 0 white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+}
+
+.domain-title h4 {
+    font-weight: bold;
+}
+.domain-desc{
+    text-align:'justify';
+}
+
+@media screen and (max-width: 1110px) {
+    .experience-content {
+        margin: 5px;
+        padding-left: 5px;
+    }
+
+    .key-result-area {
+        padding-left: 4%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .experience-content {
+        margin: 1px;
+        padding-left: 1px;
+    }
+    .cmp-name {
+        font-size: 18px;
+    }
+    .about-experience tr td {
+        padding-right: 7px;
+        font-size: 14px;
+    }
+    .key-result-area {
+        padding-left: 1%;
+    }
+    .key-result-area h5{
+        font-size: 18px;
+    }
+    .domain-title h4 {
+        font-size: 16px;
+    }
+    .domain-desc{
+        font-size: 14px;
+        padding-right: 10px;
+    }
+}

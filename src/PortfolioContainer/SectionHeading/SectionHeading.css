@@ -1,0 +1,52 @@
+.section-headings {
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-top: 45px;
+    position: relative;
+    max-width: 100%;
+}
+
+.main-heading-text {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.main-heading-text::before {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 8%;
+}
+
+.main-heading-text::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 8%;
+}
+@media screen and (max-width: 910px){
+    .main-heading-text{
+        font-size: 18px;
+    }
+    .main-heading-text::before {
+        width: 80px;
+        margin-left: 13%;
+    }
+    .main-heading-text::after {
+        width: 80px;
+        margin-right: 13%;
+    }
+}

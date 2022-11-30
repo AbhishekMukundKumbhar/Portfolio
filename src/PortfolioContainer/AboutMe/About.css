@@ -1,0 +1,132 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 670px;
+    background-image: url('../../assets/Home/pexels-uzunov-rostislav-5011647.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+}
+
+.about-container {
+    display: flex;
+    min-height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.about-left {
+    width: 50%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.about-right {
+    width: 50%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+.about-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0 0 var(--white);
+    height: 380px;
+    width: 300px;
+    margin: 0 0 0 160px;
+}
+
+.about-profile-background {
+    height: 92%;
+    width: 92%;
+    border-radius: 10%;
+    background-size: cover;
+    background-image: url('../../assets/about_me_profile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-profile-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.about-me-text {
+    font-size: 22px;
+    color: white;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0 35px;
+}
+
+.about-me-name {
+    font-size: 22px;
+    color: white;
+    text-align: end;
+    padding: 10px 35px 0 0;
+}
+
+@media screen and (max-width: 1110px) {
+    .about-left {
+        width: 40%;
+    }
+
+    .about-right {
+        width: 60%;
+    }
+
+    .about-profile {
+        height: 350px;
+        width: 300px;
+        margin: 0 0 0 70px;
+    }
+
+    .about-profile-background {
+        height: 85%;
+        width: 80%;
+    }
+
+    .about-me-text {
+        font-size: 20px;
+        padding: 0 35px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .about-container {
+        flex-direction: column;
+        margin-bottom: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-left {
+        width: 90%;
+    }
+
+    .about-right {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    .about-profile {
+        height: 300px;
+        width: 250px;
+        margin: auto;
+    }
+    .about-me-text {
+        font-size: 14px;
+    }
+    .about-me-name {
+        font-size: 16px;
+        padding: 10px 15px 0 0;
+    }
+}
