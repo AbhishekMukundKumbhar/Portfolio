@@ -110,4 +110,10 @@
     .skill-logo{
         height: 80px;
     }
+    .skills-list{
+        margin: 10px 10px;
+    }
+    .skill-card{
+        margin: 10px;
+    }
 }

@@ -147,6 +147,19 @@
     .profile-details-name .profile-details-role{
         text-align: center;
     }
+    .profile-details-name{
+        font-size: 22px;
+    }
+    .profile-details-role h1 {
+        font-size: 24px;
+    }
+    .profile-role-tagline {
+        font-size: 18px;
+        /* margin: 5px 0 0 0; */
+    }
+    .profile-details-role {
+        margin: 14px 0;
+    }
 }
 @media screen and (max-width: 375px){
     .profile-picture{

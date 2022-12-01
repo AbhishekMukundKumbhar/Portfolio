@@ -103,7 +103,7 @@
 @media screen and (max-width: 910px) {
     .about-container {
         flex-direction: column;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
         align-items: center;
         justify-content: center;
     }
@@ -114,7 +114,7 @@
 
     .about-right {
         width: 90%;
-        padding-top: 30px;
+        padding-top: 10px;
     }
 
     .about-profile {
@@ -128,5 +128,16 @@
     .about-me-name {
         font-size: 16px;
         padding: 10px 15px 0 0;
+    }
+}
+@media screen and (max-width: 810px) {
+    .about-profile {
+        height: 295px;
+        width: 245px;
+        margin: auto;
+    }
+    .about-profile-background {
+        height: 75%;
+        width: 70%;
     }
 }

@@ -99,6 +99,9 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-icon {
@@ -154,5 +157,13 @@
     }
     .project-info h1{
         font-size: 1rem;
-        }
+    }
+    .project-icon {
+        height: 25px;
+    }
+}
+@media screen and (max-width: 810px){
+    .project-info {
+        top : 25px;
+    }
 }

@@ -38,6 +38,9 @@
     margin-right: 8%;
 }
 @media screen and (max-width: 910px){
+    .section-headings{
+        padding-top: 20px;
+    }
     .main-heading-text{
         font-size: 18px;
     }
