@@ -4,6 +4,7 @@ import html from '../../assets/skills/html.webp';
 import redux from '../../assets/skills/Redux.png';
 import java from '../../assets/skills/java.jpg';
 import oracleDB from '../../assets/skills/oracle-database.png';
+import git from '../../assets/skills/Git-Icon.png';
 import mocha_chai from '../../assets/skills/mocha-chai.png';
 import express from '../../assets/skills/express.jpg';
 import css from '../../assets/skills/css_logo.png';
@@ -63,6 +64,10 @@ const Skills = () => {
         {
             icon: oracleDB,
             name: 'ORACLE DB'
+        },
+        {
+            icon: git,
+            name: 'GIT'
         }
     ];
     const mainHead = 'Skills';
