@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2aab3396.css",
-    "main.js": "/Portfolio/static/js/main.1f779397.js",
+    "main.css": "/Portfolio/static/css/main.3814b44c.css",
+    "main.js": "/Portfolio/static/js/main.8c07ccdd.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/jspiders_certificate.jpg": "/Portfolio/static/media/jspiders_certificate.44da42edd16a6ed23bea.jpg",
-    "static/media/my_profile.jpg": "/Portfolio/static/media/my_profile.e3adb142569a0a13bf18.jpg",
     "static/media/AMK_mart.png": "/Portfolio/static/media/AMK_mart.acd26ab7071cf32c9117.png",
-    "static/media/about_me_profile.jpg": "/Portfolio/static/media/about_me_profile.d5208341b378d61c854e.jpg",
+    "static/media/AbhishekCV.pdf": "/Portfolio/static/media/AbhishekCV.cc7bfaeac84c72a46029.pdf",
     "static/media/post_now.png": "/Portfolio/static/media/post_now.9ddb2d7c628b9a55bad3.png",
     "static/media/pexels-uzunov-rostislav-5011647.jpg": "/Portfolio/static/media/pexels-uzunov-rostislav-5011647.e729f4ebe6a126a93ebf.jpg",
     "static/media/Poppins-Thin.ttf": "/Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -17,19 +16,27 @@
     "static/media/Poppins-Bold.ttf": "/Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/mailz.jpeg": "/Portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/micro-frontends.png": "/Portfolio/static/media/micro-frontends.c74da04eeab9305a919d.png",
+    "static/media/profileImg.jpeg": "/Portfolio/static/media/profileImg.120e015b988404f4dcad.jpeg",
+    "static/media/webpack_5.png": "/Portfolio/static/media/webpack_5.09a1a1112c577c279435.png",
     "static/media/html.webp": "/Portfolio/static/media/html.5e86c9c1798df74b3bae.webp",
+    "static/media/heroImg.jpeg": "/Portfolio/static/media/heroImg.2226fa4f217c5e1389fb.jpeg",
+    "static/media/typeorm.png": "/Portfolio/static/media/typeorm.56dbc04b141d3d7067bf.png",
     "static/media/mocha-chai.png": "/Portfolio/static/media/mocha-chai.f85d4ebbf2a206ef9648.png",
     "static/media/oracle-database.png": "/Portfolio/static/media/oracle-database.a5f61773c5f554a5d864.png",
+    "static/media/jest.png": "/Portfolio/static/media/jest.8837ff9a43286e8d3de9.png",
     "static/media/express.jpg": "/Portfolio/static/media/express.563d356799eddae35058.jpg",
+    "static/media/aws_s3.png": "/Portfolio/static/media/aws_s3.dfc47c8f737823a3a520.png",
     "static/media/java.jpg": "/Portfolio/static/media/java.377e234e3e29ee22f64a.jpg",
     "static/media/Redux.png": "/Portfolio/static/media/Redux.543b98d3c75b48613322.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.1e7800226257cf0a44bf.png",
     "index.html": "/Portfolio/index.html",
-    "main.2aab3396.css.map": "/Portfolio/static/css/main.2aab3396.css.map",
-    "main.1f779397.js.map": "/Portfolio/static/js/main.1f779397.js.map",
+    "main.3814b44c.css.map": "/Portfolio/static/css/main.3814b44c.css.map",
+    "main.8c07ccdd.js.map": "/Portfolio/static/js/main.8c07ccdd.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aab3396.css",
-    "static/js/main.1f779397.js"
+    "static/css/main.3814b44c.css",
+    "static/js/main.8c07ccdd.js"
   ]
 }
