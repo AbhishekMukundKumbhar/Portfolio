@@ -42,5 +42,39 @@
     "JAVA",
     "ORACLE DB",
     "GIT"
+  ],
+  "experience": [
+    {
+      "companyName": "Deloitte",
+      "role": "Senior Software Developer",
+      "startDate": "05/2023",
+      "endDate": "Present",
+      "location": "Bangalore, India",
+      "keyResponsibilities": [
+        "Led the decomposition of a monolithic frontend into a scalable Micro Frontend architecture, creating independent applications for the core shell and individual business modules.",
+        "Owned the initial setup and independent deployment strategy for micro frontends by collaborating closely with the DevOps team, enabling isolated builds, CI/CD pipelines, and faster release cycles.",
+        "Implemented React Module Federation using Webpack 5 to support dynamic module loading, shared dependencies, and seamless runtime integration across micro frontends.",
+        "Designed and governed state management architecture, maintaining a common global store for shared state while enabling independent local stores for individual micro frontends, mentored team members on best practices.",
+        "Developed multiple reusable components for use across different projects as per the organisation standards.",
+        "Developed RESTful APIs using Node.js and Express.js, defined data models and entities with TypeORM, and integrated APIs with React-based frontend applications.",
+        "Implemented file upload and storage solutions using AWS S3, and supported API hosting and deployments on AWS.",
+        "Collaborated with cross-functional teams (backend, QA, product, DevOps) to ensure seamless integration, scalability, and operational stability of applications.",
+        "Built reusable, standards-compliant UI components to improve consistency, reusability, and development efficiency across projects.",
+        "Developed custom data visualizations using ECharts, implementing advanced chart configurations to meet complex business requirements."
+      ]
+    },
+    {
+      "companyName": "HCL Technologies",
+      "role": "Software Engineer - Junior Developer",
+      "startDate": "01/2021",
+      "endDate": "05/2023",
+      "location": "Bangalore, India",
+      "keyResponsibilities": [
+        "Developed and maintained frontend components using React.js, following best practices for component reusability, state management, and UI consistency.",
+        "Wrote and executed unit test cases for Node.js application using Mocha and Chai, ensuring code reliability and improving test coverage.",
+        "Analysed application logs and defect reports to identify root causes of issues raised through JIRA, collaborating with senior developers when required.",
+        "Debugged and resolved application issues by performing root cause analysis, code fixes, and validation, contributing to improved application stability and reduced defect recurrence."
+      ]
+    }
   ]
 }

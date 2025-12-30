@@ -60,7 +60,7 @@
     text-align: justify;
 }
 
-.domain-title {
+.role-title {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
@@ -71,11 +71,26 @@
         -1px -1px 0 white;
 }
 
-.domain-title h4 {
+.role-title h5 {
     font-weight: bold;
 }
 .domain-desc{
     text-align:'justify';
+    font-size: 0.85rem;
+}
+
+.company-name{
+    font-weight: 600;
+    color: darkblue;
+}
+
+.duration-location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-style: italic;
+    color: darkslategray;
 }
 
 @media screen and (max-width: 1110px) {
@@ -107,7 +122,7 @@
     .key-result-area h5{
         font-size: 18px;
     }
-    .domain-title h4 {
+    .role-title h4 {
         font-size: 16px;
     }
     .domain-desc{
