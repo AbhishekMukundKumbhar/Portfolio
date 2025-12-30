@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 670px;
-    background-image: url('../../assets/Home/pexels-uzunov-rostislav-5011647.jpg');
+    background-image: url('../../assets/images/pexels-uzunov-rostislav-5011647.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 35px;
@@ -49,7 +49,7 @@
     width: 92%;
     border-radius: 10%;
     background-size: cover;
-    background-image: url('../../assets/about_me_profile.jpg');
+    background-image: url('../../assets/images/aboutMe/profileImg.jpeg');
     background-repeat: no-repeat;
     background-position: center;
 }

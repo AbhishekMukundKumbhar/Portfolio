@@ -1,0 +1,46 @@
+{
+  "personalDetails": {
+    "name": "Abhishek Mukund Kumbhar",
+    "tagLine": "Turning complex requirements into scalable, end-to-end web applications."
+  },
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/abhishek-mukund-kumbhar-343776201",
+    "github": "https://github.com/AbhishekMukundKumbhar",
+    "instagram": "https://www.instagram.com/kumbar_abhi_1919/",
+    "facebook": "https://www.facebook.com/profile.php?id=100008871036864&mibextid=ZbWKwL"
+  },
+  "profileSteps": [
+    "Senior Software Developer",
+    1000,
+    "Frontend Developer",
+    1000,
+    "Micro Frontend Developer",
+    1000,
+    "Full Stack Developer",
+    1000,
+    "Node.js Developer",
+    1000
+  ],
+  "summary": "Senior Software Developer with 5 years of experience building scalable web applications using React.js, TypeScript, JavaScript, HTML, CSS, SCSS, and Redux. Strong expertise in Micro Frontend architecture, Webpack 5, and frontend performance optimization. Experienced in Node.js, Express.js, RESTful APIs, TypeORM, and testing with Jest and Mocha-Chai. Focused on clean, maintainable code and high-quality user experiences.",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "REACT.JS",
+    "TYPESCRIPT",
+    "REDUX",
+    "BOOTSTRAP",
+    "NODE.JS",
+    "EXPRESS.JS",
+    "WEBPACK 5",
+    "MICRO FRONTENDS",
+    "SCSS",
+    "TYPEORM",
+    "AWS S3",
+    "JEST",
+    "MOCHA-CHAI",
+    "JAVA",
+    "ORACLE DB",
+    "GIT"
+  ]
+}

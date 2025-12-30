@@ -19,7 +19,6 @@ const Contact = () => {
     const subHead = `Let's keep in touch`;
     const onSubmit = async (e) => {
         e.preventDefault();
-        console.log(form.current.user_name.value.length, form.current.message.length)
         if (form.current.user_name.value.length === 0 || form.current.user_email.value.length === 0 || form.current.message.value.length === 0) {
             setBanner('Please fill all the fields');
             toast.error('Please fill all the fields');
@@ -27,7 +26,6 @@ const Contact = () => {
             setLoading(true);
             emailjs.sendForm('service_ccjum4a', 'template_t9yd7ck', form.current, 'EuWfwmX_rN04mG1q7')
                 .then((result) => {
-                    console.log(result.text);
                     toast.success('Thank you for contacting Abhishek');
                     banner && setBanner('');
                     setLoading(false);
