@@ -1,132 +1,157 @@
+.work-content {
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.work-content-heading {
+  color: white;
+  justify-content: start;
+  padding-left: 1rem;
+}
+
 .experience-content {
-    margin: 5px 5px 5px 15px;
-    height: auto;
-    width: 95%;
-    padding-left: 15px;
+  /* margin: 5px 5px 5px 15px; */
+  height: auto;
+  width: 95%;
+  /* padding-left: 15px; */
 }
 
 .cmp-name {
-    font-size: 20px;
-    font-weight: bold;
-    color: #01a2e3
+  font-size: 20px;
+  font-weight: bold;
+  color: #01a2e3;
 }
 
 .about-experience {
-    padding-left: 20px;
-    margin-top: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
 .about-experience tr td {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
-.key-result-area {
-    margin-top: 15px;
-    padding-left: 5%;
-}
+/* .key-result-area {
+  margin-top: 15px;
+  padding-left: 5%;
+} */
 
 .key-result-details {
-    margin: 2%;
-    position: relative;
+  margin: 2%;
+  position: relative;
 }
 
 .key-result-details::before {
-    content: "";
-    position: absolute;
-    height: 95%;
-    width: 2px;
-    background-color: #01a2e3;
-    top: 17px;
-    transform: translateX(-30px);
+  content: "";
+  position: absolute;
+  height: 95%;
+  width: 2px;
+  background-color: #4fc3f7;
+  top: 17px;
+  transform: translateX(-30px);
 }
 
 .key-result-details {
-    transform: translateX(30px);
+  transform: translateX(30px);
 }
 
 .key-result-details::after {
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border: 3px solid #01a2e3;
-    border-radius: 50%;
-    top: 10px;
-    transform: translate(50%, -50%);
-    left: -49px;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border: 3px solid #4fc3f7;
+  border-radius: 50%;
+  top: 10px;
+  transform: translate(50%, -50%);
+  left: -49px;
 }
 
 .key-result-details ul li {
-    text-align: justify;
+  text-align: justify;
 }
 
 .role-title {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-    color: black;
-    text-shadow: -1px 1px 0 white,
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  color: white;
+  /* text-shadow: -1px 1px 0 white,
         1px 1px 0 white,
         1px -1px 0 white,
-        -1px -1px 0 white;
+        -1px -1px 0 white; */
 }
 
 .role-title h5 {
-    font-weight: bold;
+  font-size: clamp(1.5rem, 4vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.2;
 }
-.domain-desc{
-    text-align:'justify';
-    font-size: 0.85rem;
+.domain-desc {
+  text-align: "justify";
+  /* font-size: 0.85rem; */
+  color: #e6eef3;
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  font-weight: 400;
+  line-height: 1.6;
 }
 
-.company-name{
-    font-weight: 600;
-    color: darkblue;
+.company-name {
+  color: #cfe9f5;
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  font-weight: 500;
+  line-height: 1.4;
 }
 
-.duration-location{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 0.75rem;
-    font-style: italic;
-    color: darkslategray;
+.duration-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #9fb6c4;
+  font-size: clamp(0.75rem, 1.8vw, 0.85rem);
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
 @media screen and (max-width: 1110px) {
-    .experience-content {
-        margin: 5px;
-        padding-left: 5px;
-    }
+  /* .experience-content {
+    margin: 5px;
+    padding-left: 5px;
+  } */
 
-    .key-result-area {
-        padding-left: 4%;
-    }
+  /* .key-result-area {
+    padding-left: 4%;
+  } */
 }
 
 @media screen and (max-width: 910px) {
-    .experience-content {
-        margin: 1px;
-        padding-left: 1px;
-    }
-    .cmp-name {
-        font-size: 18px;
-    }
-    .about-experience tr td {
-        padding-right: 7px;
-        font-size: 14px;
-    }
-    .key-result-area {
-        padding-left: 1%;
-    }
-    .key-result-area h5{
-        font-size: 18px;
-    }
-    .role-title h4 {
-        font-size: 16px;
-    }
-    .domain-desc{
-        font-size: 14px;
-        padding-right: 10px;
-    }
+  /* .experience-content {
+    margin: 1px;
+    padding-left: 1px;
+  } */
+  .work-content-heading {
+    padding-left: 0rem;
+  }
+
+  .cmp-name {
+    font-size: 18px;
+  }
+  .about-experience tr td {
+    padding-right: 7px;
+    font-size: 14px;
+  }
+  /* .key-result-area {
+    padding-left: 1%;
+  } */
+  .key-result-area h5 {
+    font-size: 18px;
+  }
+  .domain-desc {
+    font-size: 14px;
+    padding-right: 10px;
+  }
 }

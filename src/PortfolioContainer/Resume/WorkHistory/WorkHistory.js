@@ -2,11 +2,16 @@ import React from "react";
 import ResumeSubSectionHeading from "../ResumeSubSectionHeading/ResumeSubSectionHeading";
 import "./WorkHistory.css";
 import config from "../../../config/config.json";
+import { FaHistory } from "react-icons/fa";
 
 const WorkHistory = () => {
   return (
-    <div id="workhistory" className="content">
-      <ResumeSubSectionHeading headingText={"Experience"} />
+    <div id="workhistory" className="work-content">
+      <ResumeSubSectionHeading
+        headingText={"Work history"}
+        className="work-content-heading"
+        Icon={(iconClassName) => <FaHistory className={iconClassName} />}
+      />
       <div className="experience-content">
         <div className="key-result-area">
           <div>
