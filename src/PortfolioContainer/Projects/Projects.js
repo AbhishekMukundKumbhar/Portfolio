@@ -37,7 +37,7 @@ const Projects = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
-      { breakpoint: 1200, settings: { slidesToShow: 2 } },
+      { breakpoint: 1200, settings: { slidesToShow: 1 } },
       { breakpoint: 900, settings: { slidesToShow: 1 } },
       { breakpoint: 600, settings: { slidesToShow: 1 } },
     ],
