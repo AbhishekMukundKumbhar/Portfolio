@@ -1,4 +1,4 @@
-import { AWSS3Img,
+import { AMKMart, AWSS3Img,
   BootstrapImg,
   CSSImg,
   ExpressJSImg,
@@ -16,7 +16,8 @@ import { AWSS3Img,
   SASSImg,
   TypeORMImg,
   TypeScriptImg,
-  Webpack5Img } from "../../assets/images";
+  Webpack5Img, 
+  postNow} from "../../assets/images";
 
 
 export const SKILL_ICONS_MAP = {
@@ -40,3 +41,9 @@ export const SKILL_ICONS_MAP = {
   "ORACLE DB": OracleImg,
   GIT: GitImg,
 };
+
+
+export const PERSONAL_PROJECTS_THUMBNAIL = {
+  AMKMart : AMKMart,
+  postNow : postNow
+}

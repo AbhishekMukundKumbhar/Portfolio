@@ -18,6 +18,8 @@ import MochaChaiImg from "../../assets/images/skills/mocha-chai.png";
 import JavaImg from "../../assets/images/skills/java.jpg";
 import OracleImg from "../../assets/images/skills/oracle-database.png";
 import GitImg from "../../assets/images/skills/Git-Icon.png";
+import AMKMart from "../../assets/images/projects/AMK_mart.png";
+import postNow from "../../assets/images/projects/post_now.png";
 
 export {
   ProfileImg,
@@ -40,4 +42,6 @@ export {
   TypeORMImg,
   TypeScriptImg,
   Webpack5Img,
+  AMKMart,
+  postNow,
 };
