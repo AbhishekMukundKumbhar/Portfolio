@@ -11,14 +11,23 @@ const Projects = () => {
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
-      { breakpoint: 1200, settings: { slidesToShow: 1 } },
-      { breakpoint: 900, settings: { slidesToShow: 1 } },
-      { breakpoint: 600, settings: { slidesToShow: 1 } },
+      {
+        breakpoint: 900, // tablet & below
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 600, // mobile
+        settings: {
+          slidesToShow: 1,
+        },
+      },
     ],
   };
   return (
