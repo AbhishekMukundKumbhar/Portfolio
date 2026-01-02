@@ -15,15 +15,10 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    mobileFirst: true,
     responsive: [
       {
-        breakpoint: 900, // tablet & below
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 600, // mobile
+        breakpoint: 910, // tablet & below
         settings: {
           slidesToShow: 1,
         },
