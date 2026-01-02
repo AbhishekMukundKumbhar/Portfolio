@@ -130,6 +130,23 @@
   color: red;
 }
 
+/* Slider container – allow controls */
+.slick-slider {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Only hide slide overflow */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Slide spacing */
+.slick-slide {
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
 .slick-slide > div {
   padding: 0 1rem;
 }
