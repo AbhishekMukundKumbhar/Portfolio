@@ -8,14 +8,13 @@ import { PERSONAL_PROJECTS_THUMBNAIL } from "../../global/constants/global";
 
 const Projects = () => {
   const mainHead = "Projects";
-
+  console.log("width:", window.innerWidth);
   const settings = {
     dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    mobileFirst: true,
     responsive: [
       {
         breakpoint: 910, // tablet & below
