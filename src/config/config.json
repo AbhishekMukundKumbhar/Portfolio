@@ -91,6 +91,13 @@
       "img": "postNow",
       "previewLink": "https://drive.google.com/file/d/1s4KJoK4HLdllMMxHFB17Qe45AFgdtX3q/view?usp=drivesdk",
       "desc": "Developed \"Post now!\" a social media application that includes all the real time requirements like posting post, like - unlike and commenting on post, follow - unfollow of users, user profile, searching profile and so on."
+    },
+    {
+      "name": "Post Now !",
+      "gitLink": "https://github.com/AbhishekMukundKumbhar/Full-stack-social-media-app/tree/master/Full_stack_social_media_app",
+      "img": "postNow",
+      "previewLink": "https://drive.google.com/file/d/1s4KJoK4HLdllMMxHFB17Qe45AFgdtX3q/view?usp=drivesdk",
+      "desc": "Developed \"Post now!\" a social media application that includes all the real time requirements like posting post, like - unlike and commenting on post, follow - unfollow of users, user profile, searching profile and so on."
     }
   ]
 }
