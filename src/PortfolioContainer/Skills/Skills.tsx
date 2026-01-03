@@ -14,7 +14,7 @@ const Skills = () => {
         <div className="skills-list">
           {config.skills.map((skill) => {
             return (
-              <div className="skill-detail" data-aos="flip-up">
+              <div className="skill-detail" data-aos="flip-up" key={skill}>
                 <div className="card skill-card">
                   <img
                     className="card-img-top skill-logo"

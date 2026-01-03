@@ -20,10 +20,10 @@ const SideNav = () => {
             <FaGraduationCap className="sidemenu-item-icon" size={35} />
             <span className="menu-item-name">Education</span>
           </a>
-          <a className="menu-item" href="#achievements">
+          {/* <a className="menu-item" href="#achievements">
             <FaTrophy size={35} className="sidemenu-item-icon" />
             <span className="menu-item-name">Achievements</span>
-          </a>
+          </a> */}
           {/* <a className='menu-item' href='#workhistory' ><FaHistory size={35} className='sidemenu-item-icon' /><span className='menu-item-name'>Work history</span></a> */}
           <a className="menu-item" href="#certification">
             <FaCertificate size={35} className="sidemenu-item-icon" />

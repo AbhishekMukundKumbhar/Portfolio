@@ -18,7 +18,7 @@ const WorkHistory = () => {
             <ul>
               {config.experience?.map((detail) => {
                 return (
-                  <li className="key-result-details">
+                  <li className="key-result-details" key={detail.companyName}>
                     <div className="key-result-section">
                       <div className="role-title">
                         <h5>{detail.role}</h5>
@@ -32,9 +32,11 @@ const WorkHistory = () => {
                       </div>
                       <div className="domain-desc">
                         <ul style={{ listStyleType: "initial" }}>
-                          {detail.keyResponsibilities.map((responsibility) => {
-                            return <li>{responsibility}</li>;
-                          })}
+                          {detail.keyResponsibilities.map(
+                            (responsibility, i) => {
+                              return <li key={i}>{responsibility}</li>;
+                            }
+                          )}
                         </ul>
                       </div>
                     </div>

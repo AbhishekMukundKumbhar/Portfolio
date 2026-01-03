@@ -15,6 +15,7 @@ const Resume = () => {
     <div id="myResume" className="resume" data-aos="fade-up">
       <SectionHeading mainHead={mainHead} subHead={subHead} />
       <WorkHistory />
+      <Achievements />
       <div className="resume-container">
         <div className="resume-side-nav" data-aos="fade-up">
           <SideNav />
@@ -22,7 +23,7 @@ const Resume = () => {
         <div className="resume-details" data-aos="fade-up">
           {/* <Outlet /> */}
           <Education />
-          <Achievements />
+          {/* <Achievements /> */}
           {/* <WorkHistory /> */}
           <Certification />
         </div>

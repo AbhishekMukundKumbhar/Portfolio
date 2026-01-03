@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Projects.css";
 import { FaGithub, FaEye } from "react-icons/fa";
 import SectionHeading from "../SectionHeading/SectionHeading";
@@ -8,22 +8,31 @@ import { PERSONAL_PROJECTS_THUMBNAIL } from "../../global/constants/global";
 
 const Projects = () => {
   const mainHead = "Projects";
-  console.log("width:", window.innerWidth);
+  const [slidesToShow, setSlidesToShow] = useState(2);
+
   const settings = {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 910, // tablet & below
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 1024) {
+        setSlidesToShow(1);
+      } else {
+        setSlidesToShow(2);
+      }
+    };
+
+    handleResize(); // IMPORTANT: run on page load
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div id="myProjects" className="projects" data-aos="fade-up">
       <SectionHeading mainHead={mainHead} />
@@ -32,7 +41,11 @@ const Projects = () => {
           <Slider {...settings}>
             {config.personalProjects.map((item) => {
               return (
-                <div className="project-detail" data-aos="zoom-in">
+                <div
+                  className="project-detail"
+                  data-aos="zoom-in"
+                  key={item.name}
+                >
                   <img
                     className="project-img"
                     src={PERSONAL_PROJECTS_THUMBNAIL[item.img]}

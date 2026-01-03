@@ -8,8 +8,6 @@ Icon?:any
 }
 
 const ResumeSubSectionHeading:FC<IResumeSubSectionHeading> = ({headingText, className='', Icon}) => {
-    console.log(Icon);
-    
     return (
         <div className={`content-heading ${className}`}>
            {Icon?Icon('content-heading-icon'):<></>} {headingText}

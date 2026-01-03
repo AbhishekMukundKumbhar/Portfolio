@@ -91,13 +91,36 @@
       "img": "postNow",
       "previewLink": "https://drive.google.com/file/d/1s4KJoK4HLdllMMxHFB17Qe45AFgdtX3q/view?usp=drivesdk",
       "desc": "Developed \"Post now!\" a social media application that includes all the real time requirements like posting post, like - unlike and commenting on post, follow - unfollow of users, user profile, searching profile and so on."
+    }
+  ],
+  "achievements": [
+    {
+      "number": 1,
+      "title": "MOVE THE DOT",
+      "subtitle": "Recognition",
+      "rank": "Individual award",
+      "text": "Honored for exceptional performance and value driven impact."
     },
     {
-      "name": "Post Now !",
-      "gitLink": "https://github.com/AbhishekMukundKumbhar/Full-stack-social-media-app/tree/master/Full_stack_social_media_app",
-      "img": "postNow",
-      "previewLink": "https://drive.google.com/file/d/1s4KJoK4HLdllMMxHFB17Qe45AFgdtX3q/view?usp=drivesdk",
-      "desc": "Developed \"Post now!\" a social media application that includes all the real time requirements like posting post, like - unlike and commenting on post, follow - unfollow of users, user profile, searching profile and so on."
+      "number": 2,
+      "title": "INTUIT",
+      "subtitle": "Project exhibition",
+      "rank": "First place",
+      "text": "Secured 1st place in INTUIT an intra collegiate project exhibition."
+    },
+    {
+      "number": 3,
+      "title": "TECH-FEST",
+      "subtitle": "MATLab coding",
+      "rank": "Second place",
+      "text": "Secured 2nd place in MATLab coding in intra collegiate tech-fest."
+    },
+    {
+      "number": 4,
+      "title": "HACKATHON",
+      "subtitle": "IEEE day",
+      "rank": "Second place",
+      "text": "Secured 2nd place in HACKATHON event in intra collegiate IEEE day."
     }
   ]
 }
