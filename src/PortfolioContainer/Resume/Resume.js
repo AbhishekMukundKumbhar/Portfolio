@@ -16,18 +16,19 @@ const Resume = () => {
       <SectionHeading mainHead={mainHead} subHead={subHead} />
       <WorkHistory />
       <Achievements />
-      <div className="resume-container">
+      <Education />
+      {/* <div className="resume-container">
         <div className="resume-side-nav" data-aos="fade-up">
           <SideNav />
         </div>
         <div className="resume-details" data-aos="fade-up">
-          {/* <Outlet /> */}
+          <Outlet />
           <Education />
-          {/* <Achievements /> */}
-          {/* <WorkHistory /> */}
+          <Achievements />
+          <WorkHistory />
           <Certification />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
