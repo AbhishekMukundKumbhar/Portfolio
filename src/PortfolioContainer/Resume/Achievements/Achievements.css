@@ -64,6 +64,20 @@
   z-index: -1;
 }
 
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.external-link {
+  margin-bottom: 20px;
+  color: #0284c7;
+  /* background-color: #0369A1 */
+}
+.external-link:hover {
+  color: #0369a1;
+}
 .achievement-title {
   text-align: center;
   font-size: 25px;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ResumeSubSectionHeading from "../ResumeSubSectionHeading/ResumeSubSectionHeading";
 import "./Achievements.css";
-import { FaTrophy } from "react-icons/fa";
+import { FaExternalLinkAlt, FaTrophy } from "react-icons/fa";
 import Slider from "react-slick";
 import config from "../../../config/config.json";
 
@@ -42,18 +42,34 @@ const Achievements = () => {
         <Slider {...settings}>
           {config.achievements.map((item) => {
             return (
-              <div class="card achievement-body" key={item.title}>
-                <div class="card-body">
-                  <h5 class="card-title achievement-title">{item.title}</h5>
-                  <h6 class="card-subtitle mb-3 text-center">
+              <div className="card achievement-body" key={item.title}>
+                <div className="card-body">
+                  <div className="card-head">
+                    <div />
+                    <h5 className="card-title achievement-title">
+                      {item.title}
+                    </h5>
+                    <a
+                      className="external-link"
+                      href={item.externalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaExternalLinkAlt />
+                    </a>
+                  </div>
+
+                  <h6 className="card-subtitle mb-3 text-center">
                     {item.subtitle}
                   </h6>
-                  <h5 class="card-title achievement-rank">{item.rank}</h5>
+                  <h5 className="card-title achievement-rank">{item.rank}</h5>
                   <p>
                     <u>Description :</u>
                   </p>
-                  <p class="card-text achievement-text">{item.text}</p>
-                  <p class="card-text text-muted text-center">{item.number}</p>
+                  <p className="card-text achievement-text">{item.text}</p>
+                  <p className="card-text text-muted text-center">
+                    {item.number}
+                  </p>
                 </div>
               </div>
             );
