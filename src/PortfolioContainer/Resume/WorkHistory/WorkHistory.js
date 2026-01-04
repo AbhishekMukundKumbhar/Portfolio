@@ -6,10 +6,9 @@ import { FaHistory } from "react-icons/fa";
 
 const WorkHistory = () => {
   return (
-    <div id="workhistory" className="work-content">
+    <div id="workhistory" className="content">
       <ResumeSubSectionHeading
         headingText={"Work history"}
-        className="work-content-heading"
         Icon={(iconClassName) => <FaHistory className={iconClassName} />}
       />
       <div className="experience-content">

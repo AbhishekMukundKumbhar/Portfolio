@@ -17,7 +17,9 @@ import { AMKMart, AWSS3Img,
   TypeORMImg,
   TypeScriptImg,
   Webpack5Img, 
-  postNow} from "../../assets/images";
+  jspidersLogo, 
+  postNow,
+  udemyLogo} from "../../assets/images";
 
 
 export const SKILL_ICONS_MAP = {
@@ -46,4 +48,9 @@ export const SKILL_ICONS_MAP = {
 export const PERSONAL_PROJECTS_THUMBNAIL = {
   AMKMart : AMKMart,
   postNow : postNow
+}
+
+export const CERTIFICATION_PLATFORM = {
+  udemy : udemyLogo,
+  JSpiders : jspidersLogo
 }

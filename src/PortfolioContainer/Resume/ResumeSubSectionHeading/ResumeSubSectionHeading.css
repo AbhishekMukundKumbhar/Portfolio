@@ -1,11 +1,13 @@
 .content-heading {
   display: flex;
-  justify-content: center;
   font-size: 24px;
   padding-top: 10px;
-  color: blue;
   align-items: center;
   gap: 0.5rem;
+  color: white;
+  justify-content: start;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 910px) {

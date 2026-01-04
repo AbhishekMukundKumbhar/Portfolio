@@ -1,62 +1,62 @@
 .resume {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .resume-container {
-    display: flex;
-    margin-top: 30px;
-    height: 85vh;
-    width: 100%;
+  display: flex;
+  margin-top: 30px;
+  height: 85vh;
+  width: 100%;
 }
 
 .resume-side-nav {
-    width: 20%;
-    padding: 10px;
-    margin: 15px;
-    background-color: white;
-    box-shadow: 0 0 15px 1px grey;
+  width: 20%;
+  padding: 10px;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0 0 15px 1px grey;
 }
 
 .resume-details {
-    width: 80%;
-    margin: 15px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px 1px grey;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+  width: 80%;
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px 1px grey;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .content {
-    height: auto;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: white;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: auto;
 }
 
 @media screen and (max-width: 1110px) {
-    .resume-side-nav {
-        width: 10%;
-    }
-    .resume-details {
-        width: 90%;
-    }
-    .resume-container {
-        height: 40vh;
-    }
+  .resume-side-nav {
+    width: 10%;
+  }
+  .resume-details {
+    width: 90%;
+  }
+  .resume-container {
+    height: 40vh;
+  }
 }
-@media screen and (max-width: 910px){
-    .resume-container {
-        height: 70vh;
-    }
-    .resume-side-nav {
-        padding: 2px;
-        margin: 5px;
-    }
-    .resume-details {
-        margin: 2px;
-    }
+@media screen and (max-width: 910px) {
+  .resume-container {
+    height: 70vh;
+  }
+  .resume-side-nav {
+    padding: 2px;
+    margin: 5px;
+  }
+  .resume-details {
+    margin: 2px;
+  }
 }

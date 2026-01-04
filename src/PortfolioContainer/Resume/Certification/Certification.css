@@ -1,116 +1,58 @@
-.certification-center {
-    font-size: 20px;
-    font-weight: bold;
-    color: #eab105;
-    margin-left: 20px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+.certification-container {
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  height: 80%;
+  align-items: stretch;
+  width: 80%;
 }
 
-.jspider-logo {
-    height: 50px;
-    width: 100px;
-    margin-bottom: 10px;
+.certification-body {
+  margin: 10px;
+  width: 18rem;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  flex: 1;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  transition: transform 0.2s ease;
 }
 
-.certification-content {
-    margin: 15px 5px 5px 15px;
-    height: 100%;
-    width: 100%;
-    padding-left: 15px;
-    display: flex;
+.certification-body:hover {
+  transform: translateY(-2px);
 }
 
-.certification-left {
-    width: 50%;
+.certification-title {
+  text-align: center;
+  font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.certification-details {
-    width: 90%;
-    height: auto;
-    margin: 5px;
-    text-align: justify;
+.certification-table {
+  margin: auto;
 }
 
-.certification-desc {
-    font-size: 18px;
-    font-weight: bold;
+.certification-table tr td {
+  padding-right: 10px;
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  font-weight: 400;
+  line-height: 1.6;
 }
 
-.tech-list {
-    list-style-type: disclosure-closed;
-    margin-left: 25px;
-}
-
-.tech-list li {
-    font-size: 17px;
-    margin-bottom: 8px;
-}
-
-.certification-right {
-    width: 50%;
-}
-
-.certification-img {
-    /* width: 500px;
-    height: 300px; */
-    width: 80%;
-    height: 90%;
-    margin: auto;
-    background-image: url('../../../assets/jspiders_certificate.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 0 15px 1px grey;
-}
-.center-address{
-    font-style:italic;
-}
-
-@media screen and (max-width: 1110px) {
-    .certification-img {
-        height: 60%;
-    }
+.certification-platform {
+  height: 30px;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 910px) {
-    .certification-center {
-        font-size: 16px;
-        margin-left: 8px;
-        margin-top: 10px;
-    }
-
-    .certification-content {
-        margin: 15px 0 5px 0;
-        height: 100%;
-        width: 100%;
-        padding-left: 5px;
-        flex-direction: column;
-    }
-
-    .certification-left {
-        width: 100%;
-    }
-    .certification-desc {
-        font-size: 14px;
-    }
-    .certification-right {
-        width: 100%;
-    }
-    .tech-list {
-        margin-left: 20px;
-    }
-    
-    .tech-list li {
-        font-size: 14px;
-        margin-bottom: 6px;
-    }
-    .center-address{
-        font-size:14px;
-    }
-    .certification-img {
-        width: 300px;
-        height: 195px;
-    }
+  .certification-body:hover {
+    transform: none;
+  }
 }

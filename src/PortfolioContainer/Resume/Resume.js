@@ -17,6 +17,7 @@ const Resume = () => {
       <WorkHistory />
       <Achievements />
       <Education />
+      <Certification />
       {/* <div className="resume-container">
         <div className="resume-side-nav" data-aos="fade-up">
           <SideNav />

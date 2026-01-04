@@ -155,5 +155,28 @@
       "passedOut": 2014,
       "location": "Pattankudi, Karnataka"
     }
+  ],
+  "certification": [
+    {
+      "name": "Webpack 5 - Micro frontend",
+      "platform": "udemy",
+      "completedOn": "Nov 2024",
+      "trainingType": "Virtual",
+      "externalLink": "https://drive.google.com/file/d/1YJlO4kpR6ZUjGLs_437Ej1Hb7s4K2LwR/view?usp=drivesdk"
+    },
+    {
+      "name": "Typescript - Complete guide",
+      "platform": "udemy",
+      "completedOn": "Feb 2024",
+      "trainingType": "Virtual",
+      "externalLink": "https://drive.google.com/file/d/1ba0R5K5stNGJApdQ4yw11D-GCNwmZIN2/view?usp=drivesdk"
+    },
+    {
+      "name": "Full stack development",
+      "platform": "JSpiders",
+      "completedOn": "Apr 2021",
+      "trainingType": "In-Person",
+      "externalLink": "https://drive.google.com/file/d/1qsbQr_HGCr3TOXFqjn92kzFsxQwZa7vb/view?usp=drivesdk"
+    }
   ]
 }

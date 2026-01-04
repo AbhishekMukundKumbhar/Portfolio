@@ -1,18 +1,3 @@
-.education-content {
-  height: auto;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.education-content-heading {
-  color: white;
-  justify-content: start;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-}
-
 .content-container {
   width: 95%;
   height: 95%;

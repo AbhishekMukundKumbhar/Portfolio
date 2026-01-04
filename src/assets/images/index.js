@@ -20,6 +20,8 @@ import OracleImg from "../../assets/images/skills/oracle-database.png";
 import GitImg from "../../assets/images/skills/Git-Icon.png";
 import AMKMart from "../../assets/images/projects/AMK_mart.png";
 import postNow from "../../assets/images/projects/post_now.png";
+import jspidersLogo from "../../assets/images/certification/jspiders_logo.png";
+import udemyLogo from "../../assets/images/certification/udemy_logo.png";
 
 export {
   ProfileImg,
@@ -44,4 +46,6 @@ export {
   Webpack5Img,
   AMKMart,
   postNow,
+  jspidersLogo,
+  udemyLogo,
 };

@@ -6,9 +6,8 @@ import config from "../../../config/config.json";
 
 const Education = () => {
   return (
-    <div id="education" className="education-content">
+    <div id="education" className="content">
       <ResumeSubSectionHeading
-        className="education-content-heading"
         Icon={(iconClassName) => <FaGraduationCap className={iconClassName} />}
         headingText={"Education"}
       />

@@ -3,7 +3,7 @@ import './ResumeSubSectionHeading.css';
 
 interface IResumeSubSectionHeading{
 headingText:string;
-className : string;
+className ?: string;
 Icon?:any
 }
 

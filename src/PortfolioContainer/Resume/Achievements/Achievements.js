@@ -32,10 +32,9 @@ const Achievements = () => {
   }, []);
 
   return (
-    <div id="achievements" className="achievement-content">
+    <div id="achievements" className="content">
       <ResumeSubSectionHeading
         headingText={"Achievements"}
-        className="achievement-content-heading"
         Icon={(iconClassName) => <FaTrophy className={iconClassName} />}
       />
       <div className="achievement-container">
