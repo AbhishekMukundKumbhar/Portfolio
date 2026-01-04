@@ -24,21 +24,21 @@
   position: relative;
 }
 
-.education-details ul li::before {
+.key-education-detail::before {
   content: "";
   position: absolute;
   height: 90%;
   width: 2px;
   background-color: #4fc3f7;
   top: 17px;
-  transform: translateX(-30px);
+  transform: translateX(-20px);
 }
 
-.education-details ul li {
-  transform: translateX(30px);
+.key-education-detail {
+  transform: translateX(20px);
 }
 
-.education-details ul li::after {
+.key-education-detail::after {
   content: "";
   position: absolute;
   height: 20px;
@@ -47,7 +47,7 @@
   border-radius: 50%;
   top: 10px;
   transform: translate(50%, -50%);
-  left: -49px;
+  left: -39px;
 }
 
 .education-table {
@@ -56,9 +56,9 @@
 }
 
 .clg-title {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  padding-right: 20px;
+  padding-right: 20px; */
   color: white;
   /* text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
     -1px -1px 0 white; */

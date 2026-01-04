@@ -17,13 +17,10 @@ const Education = () => {
           <ul>
             {config.education.map((detail) => {
               return (
-                <li key={detail.name}>
+                <li key={detail.name} className="key-education-detail">
                   <div className="education-detail-section">
                     <div className="clg-title">
                       <h5>{detail.name}</h5>
-                      {/* <div className="passed-out-year">
-                        Passed out :{detail.passedOut}
-                      </div> */}
                     </div>
                     <div className="duration-location">
                       <div>Passed out :{detail.passedOut}</div>
