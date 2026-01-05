@@ -18,7 +18,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(() => {
-    Aos.init({ offset: 120, duration: 1000 });
+    Aos.init({ offset: 100, duration: 1000 });
     Aos.refresh();
   }, []);
 
