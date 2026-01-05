@@ -38,7 +38,7 @@ const Certification = () => {
         headingText={"Certification"}
         Icon={(iconClassName) => <FaCertificate className={iconClassName} />}
       />
-      <div className="certification-container">
+      <div className="certification-container" data-aos="fade-up">
              <Slider {...settings}>
                {config.certification.map((item, idx) => {
                  return (

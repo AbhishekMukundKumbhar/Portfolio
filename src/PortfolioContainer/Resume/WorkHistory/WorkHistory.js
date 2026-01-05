@@ -14,7 +14,7 @@ const WorkHistory = () => {
       <div className="experience-content">
         <div className="key-result-area">
           <div>
-            <ul>
+            <ul data-aos="fade-up">
               {config.experience?.map((detail) => {
                 return (
                   <li className="key-result-details" key={detail.companyName}>

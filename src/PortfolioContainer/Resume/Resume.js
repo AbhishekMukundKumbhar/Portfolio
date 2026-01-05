@@ -12,7 +12,7 @@ const Resume = () => {
   const mainHead = "Resume";
   const subHead = "My formal bio details";
   return (
-    <div id="myResume" className="resume" data-aos="fade-up">
+    <div id="myResume" className="resume">
       <SectionHeading mainHead={mainHead} subHead={subHead} />
       <WorkHistory />
       <Achievements />

@@ -12,7 +12,7 @@ const Education = () => {
         headingText={"Education"}
       />
       <div className="content-container">
-        <div className="education-details">
+        <div className="education-details" data-aos="fade-up">
           <ul>
             {config.education.map((detail) => {
               return (

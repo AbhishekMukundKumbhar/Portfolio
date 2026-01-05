@@ -37,7 +37,7 @@ const Achievements = () => {
         headingText={"Achievements"}
         Icon={(iconClassName) => <FaTrophy className={iconClassName} />}
       />
-      <div className="achievement-container">
+      <div className="achievement-container" data-aos="fade-up">
         <Slider {...settings}>
           {config.achievements.map((item) => {
             return (
