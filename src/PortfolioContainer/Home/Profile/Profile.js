@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Profile.css";
-import resume from "../../../assets/resume/AbhishekCV.pdf";
+import resume from "../../../assets/resume/myCV.pdf";
 import config from "../../../config/config.json";
 
 const Profile = () => {
